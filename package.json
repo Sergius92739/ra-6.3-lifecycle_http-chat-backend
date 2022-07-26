@@ -1,0 +1,22 @@
+{
+  "name": "ra-6.3-lifecycle_http-chat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "author": "Sergius92739",
+  "license": "MIT",
+  "dependencies": {
+    "koa2-cors": "^2.0.6",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^10.1.1",
+    "nodemon": "^2.0.13",
+    "uuid": "^8.3.2"
+  }
+}
